@@ -38,8 +38,8 @@ function clock(timestamp) {
 
   // Setup
   ctx.save(); // save default state
-  ctx.clearRect(0, 0, 500, 500);
-  ctx.translate(250, 250); // offset origin to [250,250]
+  ctx.clearRect(0, 0, 1000, 500);
+  ctx.translate(500, 250); // offset origin to [250,250]
   ctx.rotate(-Math.PI / 2); // rotate clock 90 deg counter-clockwise
 
   // default styles
