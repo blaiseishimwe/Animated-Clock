@@ -173,3 +173,5 @@ function getStyles() {
   largeHandsColor.value = clockStyles.largeHands;
   secHandColor.value = clockStyles.secHand;
 }
+
+window.addEventListener('load', hideStylesForm);
