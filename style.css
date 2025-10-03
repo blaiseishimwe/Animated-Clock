@@ -37,3 +37,8 @@ label {
   font-weight: bold;
   color:rgb(116, 90, 6)
 }
+
+.showstyleform{
+    position: absolute;
+    top: 290px;
+}

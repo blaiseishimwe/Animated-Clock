@@ -21,6 +21,7 @@ function hideStylesForm() {
 
   showFormBtn.innerText = 'Show Clock Style Form';
   showFormBtn.addEventListener('click', showStylesForm);
+  showFormBtn.classList.add('showstyleform');
   document.querySelector('.card').appendChild(showFormBtn);
 }
 hideFormBtn.addEventListener('click', hideStylesForm);
